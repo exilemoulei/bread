@@ -1,0 +1,27 @@
+# Credentials & env
+*apiKey*.csv
+*key*.txt
+.env
+.env.*
+
+# Media & caches
+*.mp4
+*.m4a
+*.webm
+*.part
+*.ytdl
+.cache/
+tmp/
+
+# Dependencies & OS
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local notes & benchmarks
+PROGRESS.md
+plan.md
+opus.md
+landscape.md
+tested.md
+*_benchmark.md

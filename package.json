@@ -1,0 +1,30 @@
+{
+  "name": "bili-omni",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI for native multimodal understanding of Bilibili videos via Alibaba Cloud Bailian (Qwen Omni).",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exilemoulei/bread.git"
+  },
+  "keywords": [
+    "bilibili",
+    "qwen-omni",
+    "bailian",
+    "dashscope",
+    "multimodal",
+    "video-understanding",
+    "cli"
+  ],
+  "bin": {
+    "bili": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/unit.test.mjs",
+    "smoke": "node test/e2e.smoke.mjs"
+  }
+}
